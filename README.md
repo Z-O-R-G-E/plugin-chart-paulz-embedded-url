@@ -47,7 +47,7 @@ import {
 
 чтобы импортировать плагин, а затем добавить следующее в массив, переданный свойству `plugins`:
 ```js
-    new PaulzBigNumberChartPlugin().configure({
+    new PaulzEmbeddedUrl().configure({
         key: 'paulz-embedded-url',
     }),
 ```
