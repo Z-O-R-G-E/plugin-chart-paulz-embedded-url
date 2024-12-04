@@ -40,9 +40,7 @@ npm i -S ./plugins/plugin-chart-paulz-embedded-url
 
 После этого отредактируйте `superset-frontend/src/visualizations/presets/MainPreset.js` и внесите следующие изменения:
 ```js
-import {
-    PaulzEmbeddedUrl,
-} from '@paulz-web/plugin-chart-paulz-embedded-url';
+import { PaulzEmbeddedUrl } from '@paulz-web/plugin-chart-paulz-embedded-url';
 ```
 
 чтобы импортировать плагин, а затем добавить следующее в массив, переданный свойству `plugins`:
