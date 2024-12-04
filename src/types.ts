@@ -1,17 +1,17 @@
 import { QueryFormData } from '@superset-ui/core';
 
-export interface PluginChartEmbeddedUrlStylesProps {
+export interface PaulzEmbeddedUrlStylesProps {
   height: number;
   width: number;
 }
 
-interface PluginChartEmbeddedUrlCustomizeProps {}
+interface PaulzEmbeddedUrlCustomizeProps {}
 
-export type PluginChartEmbeddedUrlQueryFormData = QueryFormData &
-  PluginChartEmbeddedUrlStylesProps &
-  PluginChartEmbeddedUrlCustomizeProps;
+export type PaulzEmbeddedUrlQueryFormData = QueryFormData &
+  PaulzEmbeddedUrlStylesProps &
+  PaulzEmbeddedUrlCustomizeProps;
 
-export type PluginChartEmbeddedUrlProps = PluginChartEmbeddedUrlStylesProps &
-  PluginChartEmbeddedUrlCustomizeProps & {
+export type PaulzEmbeddedUrlProps = PaulzEmbeddedUrlStylesProps &
+  PaulzEmbeddedUrlCustomizeProps & {
     url: string;
   };

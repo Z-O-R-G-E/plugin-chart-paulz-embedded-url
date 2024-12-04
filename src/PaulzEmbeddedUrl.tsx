@@ -1,10 +1,8 @@
 import React, { createRef } from 'react';
-import type { PluginChartEmbeddedUrlProps } from './types';
+import type { PaulzEmbeddedUrlProps } from './types';
 import { isValidUrl } from './utils';
 
-export default function PluginChartEmbeddedUrl(
-  props: PluginChartEmbeddedUrlProps,
-) {
+export default function PaulzEmbeddedUrl(props: PaulzEmbeddedUrlProps) {
   const { url, height, width } = props;
   const rootElem = createRef<HTMLIFrameElement>();
 

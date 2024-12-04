@@ -1,1 +1,1 @@
-export { default as PluginChartEmbeddedUrl } from './plugin';
+export { default as PaulzEmbeddedUrl } from './plugin';

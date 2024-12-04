@@ -4,7 +4,7 @@ import controlPanel from './controlPanel';
 import transformProps from './transformProps';
 import thumbnail from '../images/thumbnail.png';
 
-export default class PluginChartEmbeddedUrl extends ChartPlugin {
+export default class PaulzEmbeddedUrl extends ChartPlugin {
   constructor() {
     const metadata = new ChartMetadata({
       description:
@@ -15,7 +15,7 @@ export default class PluginChartEmbeddedUrl extends ChartPlugin {
 
     super({
       metadata,
-      loadChart: () => import('../PluginChartEmbeddedUrl'),
+      loadChart: () => import('../PaulzEmbeddedUrl'),
       controlPanel,
       buildQuery,
       transformProps,
